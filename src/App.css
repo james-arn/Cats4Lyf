@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&family=Sacramento&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&family=Sacramento&display=swap');
 
 * {
   margin: auto;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -38,13 +38,9 @@
 }
 
 h1 {
-  font-family: "Sacramento", cursive;
-<<<<<<< HEAD
-  font-size: 45px;
-=======
+  font-family: 'Sacramento', cursive;
   font-size: 50px;
   font-weight: 300;
->>>>>>> e2d9bfd9bb1f085a951c7da1be448d61eb4e1d3e
   letter-spacing: normal;
 }
 
@@ -54,7 +50,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Sacramento", cursive;
+  font-family: 'Sacramento', cursive;
   font-size: 35px;
   margin: 50px auto;
   text-align: center;
@@ -64,7 +60,7 @@ h3 {
 }
 
 h3::before {
-  content: "";
+  content: '';
   display: block;
   width: 440px;
   height: 2px;
@@ -75,7 +71,7 @@ h3::before {
 }
 
 h3::after {
-  content: "";
+  content: '';
   display: block;
   width: 440px;
   height: 2px;
@@ -108,7 +104,7 @@ a {
   object-fit: cover;
   margin-top: 30px;
   border-radius: 5px;
-  box-shadow:  -4px 0px 15px 5px #828282;
+  box-shadow: -4px 0px 15px 5px #828282;
   transition: all 0.5s ease-in-out;
 }
 
