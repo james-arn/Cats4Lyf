@@ -1,15 +1,16 @@
 .tile-cart {
   transition: 0.2s;
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(147, 178, 153);
   border: none;
   margin-top: 2px;
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
 }
 
 .tile-cart:hover {
-  background-color: rgb(189, 189, 189);
+  background-color: rgb(122, 146, 127);
 }
 
 .tile-cart:focus {

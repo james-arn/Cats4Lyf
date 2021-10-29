@@ -25,8 +25,7 @@ const Tile = ({ name, image, price, id, handleSetCart, handleOpenAbout }) => {
       <h4>£{price}</h4>
       <div>
         <button data-value="add" onClick={submitToCart} className="tile-cart">
-          <BsCartPlus />
-          <span>Add to cart</span>
+          <BsCartPlus /> Add to cart
         </button>
       </div>
     </div>
